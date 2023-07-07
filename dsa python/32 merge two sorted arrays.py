@@ -31,17 +31,6 @@ The result of the merge is [1].
 Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1.
 '''
 
-nums1 = [1,2,3,0,0,0]
-m = 3
-nums2 = [2,5,6]
-n = 3
 
-temp = nums1 + nums2
 
-for x in temp:
-    if x == 0:
-        temp.remove(0)
-        print('removing zero')
 
-nums1=temp
-print(nums1)
