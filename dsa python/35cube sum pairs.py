@@ -13,13 +13,3 @@ Output : 2
  3^3 + 1^3 = 28
 '''
 
-N = 9
-temp = 0
-for x in range(1,N+1):
-    for y in range(x+1,N+1):
-        if x**3 + y**3 == N :
-            temp = temp +2
-        else :
-            temp = temp+1
-
-print(temp)
