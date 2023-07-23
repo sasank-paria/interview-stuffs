@@ -23,8 +23,12 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 nums = [0,1,2,2,3,0,4,2]
 val = 2
 
-l= 0
+index = 0
 
-while l<len(nums):
-    if nums[l]==val:
-        nums[l]
+for x in range(len(nums)):
+    if nums[x]!=val:
+        nums[index] = nums[x]
+        index += 1
+
+print(nums)
+print(index)
