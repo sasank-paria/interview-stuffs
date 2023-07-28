@@ -21,3 +21,26 @@ Input: ransomNote = "aa", magazine = "aab"
 Output: true
 '''
 
+
+def ransomnote():
+    ransomNote = "fihjjjjei"
+    magazine = "hjibagacbhadfaefdjaeaebgi"
+
+    map_magazine = {}
+    map_ransom = {}
+
+    for c2 in magazine:
+        map_magazine[c2] = 1 + map_magazine.get(c2,0)
+    print("magazine",map_magazine)
+    
+    for c1 in ransomNote:
+        map_ransom[c1] = 1 + map_ransom.get(c1,0)
+    print('ransom',map_ransom)
+
+    for c1 in ransomNote:
+        if map_ransom.get(c1,0) <= map_magazine.get(c1,0):
+            return True
+        else:
+            return False
+
+ransomnote()
