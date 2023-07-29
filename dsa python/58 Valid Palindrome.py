@@ -21,4 +21,10 @@ Since an empty string reads the same forward and backward, it is a palindrome.
 
 def isPalindrome():
     s = "A man, a plan, a canal: Panama"
-    
+    newstring = ""
+    for c in s :
+        if c.isalnum():
+            newstring += c.lower()
+    return newstring == newstring[::-1]
+
+isPalindrome()

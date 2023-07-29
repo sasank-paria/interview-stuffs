@@ -1,0 +1,6 @@
+pascal triangle
+sort  0 1 2 
+find duplicates in array
+pair sum
+valid parenthesis
+reverse words in a string
