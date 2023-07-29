@@ -1,6 +1,65 @@
-pascal triangle
-sort  0 1 2 
-find duplicates in array
-pair sum
-valid parenthesis
-reverse words in a string
+
+21sum_or_product.py
+22sort_array.py
+23maximum_subarray_sum kadanes algo.py
+24find_duplicate_in_array.py
+25swap_numbers.py
+26allocate_books.py
+27pascal_triangle.py
+28search_in_sorted_rotated_array.py
+29rotate_array_by_k_steps.py
+30reverse_linkedlist.py
+31Kth largest element in an array.py
+32 merge two sorted arrays.py
+33reverse words in a string.py
+34bubble sort .py
+35cube sum pairs.py
+36 cycle detection in a linked list.py
+37 trapping rain water.py
+38 house robber.py
+39 anagram pairs.py
+40 longest increasing subsequence.py
+41 best time to buy sell stock.py
+42 Two Sum II - Input Array Is Sorted.py
+43 palindrome linked list.py
+44 Remove Linked List Elements .py
+45 find all duplicates in array.py
+46 quick sort .py
+47 Set Matrix Zeroes.py
+48 remove element.py
+49 Remove Duplicates from Sorted Array.py
+50Majority Element.py
+51 Isomorphic Strings.py
+52 happy number.py
+53 Word Pattern.py
+54 Contains Duplicate II .py
+55 Length of Last Word.py
+56 ransom note .py
+57 Longest Common Prefix.py
+58 Valid Palindrome.py
+59 Palindrome Number.py
+60 Plus One.py
+61 square root .py
+armstrong_number.py
+binary_search.py
+chocolate_distribution_problem.py
+concatenate_two_string.py
+evenorodd.py
+factorial.py
+fibonacci.py
+greatestof_three_number.py
+how to extract digit from int .py
+leap_year.py
+matrix_multiplication.py
+merge_two_sorted_list.py
+missing_number.py
+next_greater_element.py
+pair_sum.py
+palindrome2.py
+prime_number.py
+reverse_string.py
+sum_of_infinite_array.py
+swap_two_numbers.py
+tempCodeRunnerFile.py
+valid_parenthesis.py
+62 best time to buy and sell stock
