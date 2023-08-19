@@ -63,3 +63,6 @@ swap_two_numbers.py
 tempCodeRunnerFile.py
 valid_parenthesis.py
 62 best time to buy and sell stock
+63 contains duplicate
+64 concatenation of array
+
