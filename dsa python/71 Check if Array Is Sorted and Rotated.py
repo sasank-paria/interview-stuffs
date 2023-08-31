@@ -37,4 +37,5 @@ def check():
         if (nums[index]<nums[index+1]):
             count = count+1
         
-    
+    if (nums[0]>nums[len(nums)-1]):
+        count = count+1
