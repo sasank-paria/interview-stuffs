@@ -33,9 +33,17 @@ You can rotate the array by x = 0 positions (i.e. no rotation) to make nums.
 def check():
     nums = [3,4,5,1,2]
     count = 0
-    for index in range(0,len(nums)):
-        if (nums[index]<nums[index+1]):
+    for index in range(0,len(nums)-1):
+        if (nums[index]<nums[index+1] or nums[index]==nums[index+1]):
             count = count+1
         
-    if (nums[0]>nums[len(nums)-1]):
+    if (nums[0]>nums[len(nums)-1] or nums[0]==nums[len(nums)-1]):
         count = count+1
+    
+    
+    if (count==len(nums)-1 or count == 0 or count==len(nums)):
+        return True
+    else:
+        return False
+    
+check()
