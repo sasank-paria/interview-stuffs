@@ -10,7 +10,7 @@ Input: nums = [1]
 Output: 1
 Explanation: The subarray [1] has the largest sum 1.
 '''
-###kadane's algorithm
+###kadane's algorithm =>  https://www.interviewbit.com/blog/maximum-subarray-sum/
 
 nums = [-2,1,-3,4,-1,2,1,-5,4]
 cur_sum = 0

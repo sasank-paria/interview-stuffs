@@ -18,8 +18,8 @@ no_rows = 5
 
 res = [[1]]
 
-for i in range(len(no_rows)+1):
-    temp = [0]+ res[-1]+res[0]
+for i in range((no_rows)-1):
+    temp = [0]+ res[-1]+[0]
     rows = []
     for j in range(len(res[-1])+1):
         rows.append(temp[j]+temp[j+1])
