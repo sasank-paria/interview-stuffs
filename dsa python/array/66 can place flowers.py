@@ -16,6 +16,7 @@ Example 2:
 Input: flowerbed = [1,0,0,0,1], n = 2
 Output: false
 '''
+# add 0 to the start and end of the given array
 
 def canPlaceFlowers():
     flowerbed = [1,0,0,0,1]

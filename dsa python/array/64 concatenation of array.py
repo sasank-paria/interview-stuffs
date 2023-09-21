@@ -28,7 +28,7 @@ def getConcatenation():
     nums = [1,3,2,1]
     
     concate_list = list(nums)
-    
+
     for x in nums:
         concate_list.append(x)
 

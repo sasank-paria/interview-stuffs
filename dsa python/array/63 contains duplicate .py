@@ -16,6 +16,7 @@ Example 3:
 Input: nums = [1,1,1,3,3,4,3,2,4,2]
 Output: true
 '''
+#two pointers method 
 
 def containsDuplicate() :
     #nums = [1,2,3,4,1]

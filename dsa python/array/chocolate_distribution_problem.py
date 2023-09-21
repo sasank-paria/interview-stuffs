@@ -5,6 +5,11 @@ Explanation:
 We have seven packets of chocolates and we need to pick three packets for 3 students 
 If we pick 2, 3 and 4, we get the minimum difference between maximum and minimum packet sizes.
 '''
+# The idea is based on the observation that to minimize the difference, 
+# we must choose consecutive elements from a sorted packet. 
+# first sort the array arr[0..n-1], then find the subarray of size m 
+# with the minimum difference between the last and first elements.
+
 
 arr=[7,3,2,4,9,12,56]
 

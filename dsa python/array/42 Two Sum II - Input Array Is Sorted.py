@@ -16,6 +16,8 @@ Output: [1,2]
 Explanation: The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2. We return [1, 2].
 '''
 
+#two pointers  left at start and right at the end 
+
 numbers = [2,7,11,15]
 target = 9
 #Output: [1,2]

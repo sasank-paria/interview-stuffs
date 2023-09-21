@@ -32,6 +32,7 @@ def findDifference():
     
     nums1_set = set(nums1)
     nums2_set = set(nums2)
+
     
     return [nums1_set - nums2_set ,nums2_set-nums1_set]
 
