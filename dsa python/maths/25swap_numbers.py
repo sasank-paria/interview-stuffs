@@ -4,7 +4,7 @@ output: 3 2 1
 
 '''
 
-number = 123
+number = -123
 number=str(number)
 
 reverse = number[::-1] 
