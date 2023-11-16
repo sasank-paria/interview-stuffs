@@ -13,6 +13,3 @@ for x in range(0,len(arr)-1):
     for y in range(x+1,len(arr)):
         if arr[x]==arr[y]:
              print(arr[y])
-
-
-

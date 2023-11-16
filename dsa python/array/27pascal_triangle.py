@@ -26,3 +26,4 @@ for i in range((no_rows)-1):
     res.append(rows)
 
 print(res)
+
