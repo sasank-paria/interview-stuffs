@@ -7,8 +7,17 @@
 
 
 str = 'Take u forward is Awesome'
-res = 0
+vowels = 0
+consonants = 0
+whitespace = 0
+
 for x in str:
-    if x == 'a' or 'e' or 'i' or 'o' or 'u' :
-        res+=1
-        print(res)
+    char = x.lower()
+    if char=='a' or char=='e' or char=='i' or char=='o' or char=='u' :
+        vowels+=1
+    elif char == " " :
+        whitespace+=1
+    else:
+        consonants+=1
+
+print(vowels,consonants,whitespace)
