@@ -29,8 +29,11 @@ new_str = test_str.replace('s', '', 1)
 str = 'take u forward'
 newstr = ''
 
+vowels = ['a','e','i','o','u','A','E','I','O','U']
+
 for x in str:
-    char = x.lower()
-    if char!='a' or char!='e' or char!='i' or char!='o' or char!='u' :
+    if x in vowels:
+        newstr = newstr
+    else:
         newstr = newstr + x
-        print(newstr)
+print(newstr)
