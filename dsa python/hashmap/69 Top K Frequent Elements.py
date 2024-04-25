@@ -16,7 +16,9 @@ Output: [1]
 hmap = {'ravi': 10, 'rajnish': 9, 'sanjeev': 15, 'yash': 2, 'suraj': 32}
 keys = list(hmap.keys())
 keys.sort()
-sortedmap = {i:hmap[i] for i in keys }
+sortedmap = {}
+for i in keys :
+    sortedmap[i] = hmap[i]
 # print(sortedmap)
 
 #sorting hashmap by values:
@@ -35,4 +37,4 @@ def topKFrequent():
         map[x] = map.get(x,0)+1
     
 
-topKFrequent()
+# topKFrequent()

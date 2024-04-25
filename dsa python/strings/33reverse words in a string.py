@@ -19,4 +19,3 @@ words.reverse()
 s = " ".join(words)
 
 print(s)
-
