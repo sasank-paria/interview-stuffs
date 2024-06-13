@@ -21,3 +21,6 @@ selectionSort(data, size)
 
 print('Sorted Array in Ascending Order is :')
 print(data)
+
+time complexity = O(n^2)
+space complexity = O(1)
