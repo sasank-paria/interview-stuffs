@@ -7,3 +7,6 @@ for x in range(0,len(arr)):
             arr[y],arr[y+1]=arr[y+1],arr[y]
 
 print(arr)
+
+time complexity = O(n^2)
+space complexity = O(1)
