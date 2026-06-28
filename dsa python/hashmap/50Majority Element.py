@@ -27,9 +27,3 @@ for x in nums :
     maxcount = max(counter[x],maxcount)
 
 print(res)
-
-
-
-
-
-
